@@ -29,7 +29,7 @@ if SEmom0 == 1:
     ff.set_theme('publication')
     #ff.set_system_latex(True)
     maxcolor = 20.
-    mincolor = 3.
+    mincolor = 0.
     ff.show_colorscale(cmap='afmhot', vmin=mincolor, vmax=maxcolor, stretch='sqrt')
     #ff.show_regions('olay.reg')
     #ff.show_regions('olay1.reg')
@@ -68,7 +68,7 @@ if NWmom0 == 1:
     ff.set_theme('publication')
     #ff.set_system_latex(True)
     maxcolor = 20.
-    mincolor = 3.
+    mincolor = 0.
     ff.show_colorscale(cmap='afmhot', vmin=mincolor, vmax=maxcolor, stretch='sqrt')
     #ff.show_regions('olay.reg')
     #ff.show_regions('olay1.reg')
