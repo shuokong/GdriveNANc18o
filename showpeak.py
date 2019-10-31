@@ -34,8 +34,8 @@ if SEpeak == 1:
     mincolor = 1.8
     ff.show_colorscale(cmap='gist_heat', vmin=mincolor, vmax=maxcolor, stretch='linear')
     ff.show_contour(data=sebgps, levels=np.arange(0.4,5.,0.5), colors='white', linewidths=0.5) 
-    #ff.show_regions('olay.reg')
-    #ff.show_regions('olay1.reg')
+    ff.show_regions('rebull.reg')
+    ff.show_regions('edges.reg')
     ff.add_colorbar() 
     ff.colorbar.set_pad(0.5)
     ff.colorbar.set_axis_label_text('K')
@@ -74,8 +74,8 @@ if NWpeak == 1:
     mincolor = 1.8
     ff.show_colorscale(cmap='gist_heat', vmin=mincolor, vmax=maxcolor, stretch='linear')
     ff.show_contour(data=nwbgps, levels=np.arange(0.4,2.0,0.2), colors='white', linewidths=0.5) 
-    #ff.show_regions('olay.reg')
-    #ff.show_regions('olay1.reg')
+    ff.show_regions('rebull.reg')
+    ff.show_regions('edges.reg')
     ff.add_colorbar() 
     ff.colorbar.set_pad(0.5)
     ff.colorbar.set_axis_label_text('K')
